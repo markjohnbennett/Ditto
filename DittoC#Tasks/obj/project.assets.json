@@ -1,0 +1,247 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ditto/1.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "PeterO.Cbor": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Ditto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Ditto.dll": {}
+        },
+        "build": {
+          "build/Ditto.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libdittoffi.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libdittoffi.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win/native/dittoffi.dll": {
+            "assetType": "native",
+            "rid": "win"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PeterO.Cbor/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "PeterO.Numbers": "1.7.4",
+          "PeterO.URIUtility": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/CBOR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/CBOR.dll": {}
+        }
+      },
+      "PeterO.Numbers/1.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Numbers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Numbers.dll": {}
+        }
+      },
+      "PeterO.URIUtility/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/URIUtility.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/URIUtility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ditto/1.0.11": {
+      "sha512": "xeOl5O0Ap8/PBdUG+x/cXXwVp7m15hjbGIoF75LHylcAlLU+w52R5jAlohB3NPISjpfmn1MbghK8wAFaLLc7Jg==",
+      "type": "package",
+      "path": "ditto/1.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "DEPENDENCY_LICENSES.zip",
+        "License.md",
+        "build/Ditto.targets",
+        "ditto.1.0.11.nupkg.sha512",
+        "ditto.nuspec",
+        "lib/netstandard2.1/Ditto.dll",
+        "runtimes/linux-x64/native/libdittoffi.so",
+        "runtimes/osx/native/libdittoffi.dylib",
+        "runtimes/win/native/dittoffi.dll"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "PeterO.Cbor/4.3.0": {
+      "sha512": "fHTpN+jJxc2E7a1SUv+aYzw/1Rype+ZRMiGnMlawtzIrr9zBFirxrvrmwrnSZE4bWj4ASKqcyrrHK/7ZUsvP5g==",
+      "type": "package",
+      "path": "petero.cbor/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/CBOR.dll",
+        "lib/net20/CBOR.xml",
+        "lib/net40/CBOR.dll",
+        "lib/net40/CBOR.xml",
+        "lib/netstandard1.0/CBOR.dll",
+        "lib/netstandard1.0/CBOR.xml",
+        "petero.cbor.4.3.0.nupkg.sha512",
+        "petero.cbor.nuspec"
+      ]
+    },
+    "PeterO.Numbers/1.7.4": {
+      "sha512": "oySAfEhm+hIKBapnkx7uwR4xISmec4Fn1pEpvD6CplWF0G8QmcWnuGxkc0EWYmCEpg69shfJ+I95Hncw6a6TGA==",
+      "type": "package",
+      "path": "petero.numbers/1.7.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Numbers.dll",
+        "lib/net20/Numbers.xml",
+        "lib/net40/Numbers.dll",
+        "lib/net40/Numbers.xml",
+        "lib/netstandard1.0/Numbers.dll",
+        "lib/netstandard1.0/Numbers.xml",
+        "petero.numbers.1.7.4.nupkg.sha512",
+        "petero.numbers.nuspec"
+      ]
+    },
+    "PeterO.URIUtility/1.0.0": {
+      "sha512": "fpRTBsYACMp7NvTECauYRomubWTC3vUNw4hMXdIedP8ctBGK6tea9HOJwE+qVzis6MZYkL3LIs8qeY3rc6Jdlw==",
+      "type": "package",
+      "path": "petero.uriutility/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/URIUtility.dll",
+        "lib/net20/URIUtility.xml",
+        "lib/net40/URIUtility.dll",
+        "lib/net40/URIUtility.xml",
+        "lib/netstandard1.0/URIUtility.dll",
+        "lib/netstandard1.0/URIUtility.xml",
+        "petero.uriutility.1.0.0.nupkg.sha512",
+        "petero.uriutility.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Ditto >= 1.0.11"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mbennett1\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mbennett1\\Source\\Ditto1\\Ditto1.csproj",
+      "projectName": "Ditto1",
+      "projectPath": "C:\\Users\\mbennett1\\Source\\Ditto1\\Ditto1.csproj",
+      "packagesPath": "C:\\Users\\mbennett1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mbennett1\\Source\\Ditto1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mbennett1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Ditto": {
+            "target": "Package",
+            "version": "[1.0.11, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
