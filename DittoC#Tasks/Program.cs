@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using DittoSDK;
 using System.Collections.Generic;
 
@@ -16,10 +16,7 @@ namespace Ditto1
         public static void Main(string[] args)
         {
 
-            String token = "o2d1c2VyX2lkZmFsYXNrYWZleHBpcnl0MjAyMS0xMC0xNlQwMDow" +
-                    "MDowMFppc2lnbmF0dXJleFh1LzVTSm9LZTI2QmpKZW43MFZHMklw" +
-                    "Y0x4WnpBTmc3M2theDhVaHpxcVBUc2RwMklEYUFHZm9EM1NsO" +
-                    "UFoK3lLSWhrcXJPMjRHK2VWVVg1TTZwTlNHZz09";
+            String token = "o2d1c2VyX2lkZmFsYXNrYWZleHBpcnl0MjAyMS0xMi0xNVQwMDowMDowMFppc2lnbmF0dXJleFhGNVFHempCQi9DVDJzMXo2T09FcFdsZmh4SUJkMUhoZWw1L1U1OG5zUkVpb21QR2NiRWZNaXAzOERzWGUvY0FTS0pkNjQzaVRoQXF1eXBpVUNMeE1rdz09";
 
             DittoTransportConfig transportConfig = new DittoTransportConfig();
             transportConfig.PeerToPeer.Lan.Enabled = true;
@@ -37,7 +34,8 @@ namespace Ditto1
                 ditto.SetLicenseToken(token);
                 ditto.TryStartSync();
 
-            } catch (DittoException ex)
+            }
+            catch (DittoException ex)
             {
                 Console.WriteLine("There was an error starting Ditto.");
                 Console.WriteLine("Here's the following error");
@@ -105,7 +103,7 @@ namespace Ditto1
                 }
             }
 
-         }
+        }
 
         public static void ListCommands()
         {
